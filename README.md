@@ -21,9 +21,9 @@
          }
      ]
 
-    3. 用vue-route的beforeEach实现导航守卫（路由跳转前验证登录）
+ 3. 用vue-route的beforeEach实现导航守卫（路由跳转前验证登录）
 
-    4. 用到element-ui中的Form,Table,Pagination,Tree,Loading,NavMenu,Popvoer
+ 4. 用到element-ui中的Form,Table,Pagination,Tree,Loading,NavMenu,Popvoer
 
-    5. 遇到的问题
-        * element-ui组件与所需效果不符，进行进一步的修改
+ 5. 遇到的问题
+    * element-ui组件与所需效果不符，进行进一步的修改
