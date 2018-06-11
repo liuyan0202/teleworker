@@ -1,0 +1,93 @@
+.user_page {
+    width: 100%;
+    height: 100%;
+  }
+  .user_title {
+    color: #fff;
+  }
+  .user_top {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    background: lightblue;
+    border: 1px solid rgb(70, 182, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .user_box {
+    width:100%;
+    height:600px;
+    display: flex;
+  }
+  .user_left {
+    width:14%;
+    border: 1px solid #ccc;
+    border-right:none;
+  }
+  .user_left .el-submenu{
+    border-bottom:1px solid #ccc;
+  }
+  .user_left .user {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #fff;
+    padding: 10px;
+  }
+  .user_left .user dt {
+    margin-right: 10px;
+  }
+  .user_left .user dt p {
+    color: blue;
+  }
+  .el-submenu__icon-arrow{
+    right:10px;
+  }
+  .user_left .user_select {
+    width: 100%;
+  }
+  .el-submenu .el-menu-item{
+    max-width: 170;
+    min-width:120px;
+    padding:0;
+  }
+  .el-menu-item span{
+    display: inline-block;
+    width:100%;
+    height:100%;
+  }
+  .user_right {
+    width:86%;
+    border: 1px solid #ccc;
+  }
+  .user_topname {
+    width: 100%;
+    height: 28px;
+    background: rgb(247, 244, 244);
+    border-bottom: 1px solid #666;
+  }
+  .user_topname span {
+    display: inline-block;
+    padding: 0 12px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background: rgb(219, 218, 218);
+    border-left: 1px solid rgb(167, 165, 165);
+    border-right: 1px solid rgb(167, 165, 165);
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .user_topname span.router-link-active {
+    background: #fff;
+  }
+  .user_topname span b {
+    display: inline-block;
+    font-weight: normal;
+    cursor: pointer;
+    width: 10px;
+    height: 28px;
+    margin-left: 6px;
+  }
